@@ -1,36 +1,46 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
+owner: smallersoup # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: 进击云原生
+    url: https://kubeinfo.cn
+    icon: https://kubeinfo.cn/favicon/favicon.ico
 
 status-website:
+  themeUrl: https://jsdelivr.icloudnative.io/gh/yangchuansheng/upptime/assets/my-custom-theme1.css
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  # cname: demo.upptime.js.org
+  baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  introTitle: "实时监控进击云原生相关网站、服务等在线状态"
   introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
-    - title: Status
+    - title: 监控
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: 主页
+      href: https://kubeinfo.cn
+i18n:
+  overallUptime: "平均可用率: $UPTIME"
+  overallUptimeTitle: 平均可用率
+  activeIncidents: 实时事件
+  averageResponseTime: "平均响应时间: $TIMEms"
+  averageResponseTimeTitle: 平均响应时间
+  allSystemsOperational: 所有站点运行正常
+  down: 故障
+  up: 健康
+  footer: powered by [进击云原生](https://kubeinfo.cn)
+  incidentDetails: 事件详情
+  incidentBack: ← 回到事件列表
+  liveStatus: 实时状态
+  pastIncidents: 历史事件
+  pastIncidentsResolved: $MINUTES 分钟前已恢复正常
+  pastScheduledMaintenance: 定期维护历史
+  scheduledMaintenance: 定期维护
+  responseTimeMs: 响应时间 (ms)
+  sevelDayResponseTime: 7-day 响应时间
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
