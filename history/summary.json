@@ -4,17 +4,17 @@
     "url": "https://kubeinfo.cn",
     "icon": "https://kubeinfo.cn/favicon/favicon.ico",
     "slug": "",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 500,
-    "timeDay": 457,
-    "timeWeek": 461,
-    "timeMonth": 524,
-    "timeYear": 500,
+    "time": 501,
+    "timeDay": 539,
+    "timeWeek": 490,
+    "timeMonth": 519,
+    "timeYear": 501,
     "dailyMinutesDown": {}
   }
 ]
